@@ -13,6 +13,8 @@ def main() -> None:
         line_notify(message)
         print('content.txt has changed.')
     else:
+        message = 'ページに変更はありません。\nhttps://www.c1.uec.ac.jp/internal/b3/'
+        line_notify(message)
         print('There is no change on the web page.')
 
 
