@@ -17,5 +17,4 @@ def main() -> None:
 
 
 if __name__ == '__main__':
-    # main()
-    line_notify('hello')
+    main()
