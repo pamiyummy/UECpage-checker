@@ -4,7 +4,7 @@ name: test_line_notify
 # 実行タイミング
 on:
  schedule:
-   - cron: '*/5 * * * *'
+   - cron: '0 0 * * *'
 
 # 実行内容
 jobs:
